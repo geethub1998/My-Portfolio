@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Kumar</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://kit.fontawesome.com/9d87d71b50.js" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!----<i class="fa-regular fa-person-hiking"></i>--->
+                <FontAwesomeIcon icon="fa-brands fa-bluesky" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <!--<i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>-->
+                </ul>
+                <!--<i class="fa-solid fa-square-caret-down" onclick="openmenu()"></i>--->
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Sandeep</span><br>Sah from India.</h1>
+            </div>
+        </div>
+    </div>
+<!---
+    Slider Section 
+    <div class="slider">
+        <div class="slides">
+            <img src="/Image/img11.webp" alt="Slide 1">
+            <img src="/Image/img9.jpg" alt="Slide 2">
+            <img src="/Image/img1.jpg" alt="Slide 3">
+            <img src="/Image/img2.jpg" alt="Slide 3">
+            <img src="/Image/img3.jpg" alt="Slide 3">
+            <img src="/Image/img4.jpg" alt="Slide 3">
+            <img src="/Image/img5.jpg" alt="Slide 3">
+            <img src="/Image/img6.jpg" alt="Slide 3">
+            <img src="/Image/img7.jpg" alt="Slide 3">
+            <img src="/Image/img8.jpg" alt="Slide 3">
+            Add more slides as needed
+        </div>
+    </div>
+-->
+    <!-- About Me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Image/img5.jpg" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi I’m Sandeep Sah, a dedicated ServiceNow Developer with a passion for solving complex problems and creating efficient solutions. 
+                    Currently, I work at Tanaashi Technologies Pvt. Ltd., where I get to dive into exciting projects and help businesses streamline operations
+                    using ServiceNow.
+                    <br>With a strong background in Performance Analytics and Predictive Intelligence, I’ve earned several certifications that have deepened my understanding of the ServiceNow platform.
+                    These experiences have not only honed my technical skills but also taught me the importance of continuous learning and adaptation in the tech world.
+                    When I’m not working, you might find me exploring new technologies, reading up on industry trends, or just enjoying some downtime with my favorite hobbies. I believe in the power of technology to make a real difference, and I’m always looking for new ways to apply my skills to create meaningful impact.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'education')">Education</p>
+                        <p class="tab-links" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'certification')">Certifications</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span><p>Master Degree</p></span><br>Master of Computer Applications<br>Birla Institute of Technology Mesra.</li>
+                            <li><span><p>Bachelor Degree</p></span><br>Bachelor of Computer Applications<br>Mahadeo Singh College Bhagalpur.</li>
+                        </ul> 
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Coding Language: C++, Java, HTML, CSS</span></li>
+                            <li><span>ServiceNow ITSM</span></li>
+                            <li><span>ServiceNow ITIL</span></li>
+                            <li><span>ServiceNow ITOM</span></li>
+                            <li><span>ServiceNow HRSD</span></li>
+                            <li><span>ServiceNow Flow Designer</span></li>
+                            <li><span>ServiceNow Service Catalog</span></li>
+                        </ul> 
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>Wel-Come Certification</span><br>ServiceNow Wel-Come Certification.</li>
+                            <li><span>Flow Designer</span><br>ServiceNow Flow Designer.</li>
+                            <li><span>Integration Hub</span><br>ServiceNow Integration Hub</li>
+                            <li><span>Predictive Intelligence</span><br>ServiceNow Predictive Intelligence</li>
+                            <li><span>Performance Analytics</span><br>ServiceNow Performance Analytics</li>
+                            <li><span>Agile and Test Management</span><br>ServiceNow Agile and Test Management</li>
+                        </ul> 
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Software Developer</span><br>India Meteorological Department,<br>Delhi</li>
+                            <li><span>Internship</span><br>ServiceNow Developer<br>Tanaashi Technologies Pvt. Ltd.</li>
+                            <li><span>ServiceNow Developer</span><br>Current<br>Tanaashi Technologies Pvt. Ltd.</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-code-compare"></i>
+                    <h2>IT Service Management</h2>
+                    <p>I have great experience in IT Service Management</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>HR Service Delivery System</h2>
+                    <p>I have great experience in HR Service Delivery</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>IT Operation Management</h2>
+                    <p>I have great experience in IT Operation Management</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h2>India Meteorological Department <br> Web-Site</h2>
+                    <p>I developed the new and most friendly website for India Meteorological  Department <br>Delhi</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-snowman"></i>
+                    <h2>ServiceNow Developer</h2>
+                    <p>I have great experience on ServiceNow Developer Role <br>I worked more than two years for <br>
+                    Tanaashi Technologies PVT.Ltd</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Image/frontImage-removebg-preview.png" alt="Social Media App">
+                    <div class="layer">
+                        <h3><b>Social Media App</b></h3>
+                        <p>The app can connect you with anyone.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Image/frontImage-removebg-preview.png" alt="Hospital Management System">
+                    <div class="layer">
+                        <h3><b>Hospital Management System</b></h3>
+                        <p>It works for all hospital management systems.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Image/frontImage-removebg-preview.png" alt="Fake News Detection">
+                    <div class="layer">
+                        <h3><b>Fake News Detection</b></h3>
+                        <p>It can detect whether news is real or not.</p>
+                        <a href="#"><i class="fa-solid fa-anchor"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Image/frontImage-removebg-preview.png" alt="ServiceNow Developer">
+                    <div class="layer">
+                        <h3><b>IMD Web-Site</b></h3>
+                        <p>Web-Site for  India Meteorological Department<br>Delhi.</p>
+                        <a href="#"><i class="fa-solid fa-snowplow"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Image/frontImage-removebg-preview.png" alt="ServiceNow Developer">
+                    <div class="layer">
+                        <h3><b>ServiceNow  Developer</b></h3>
+                        <p>I am ServiceNow Developer at <br>Tanaashi Technologies PVT.Ltd</p>
+                        <a href="#"><i class="fa-solid fa-snowplow"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Image/frontImage-removebg-preview.png" alt="ServiceNow Developer">
+                    <div class="layer">
+                        <h3><b>ServiceNow  Developer</b></h3>
+                        <p>I am ServiceNow Developer at <br>Tanaashi Technologies PVT.Ltd</p>
+                        <a href="#"><i class="fa-solid fa-snowplow"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!------------------Certifications----------------------------->
+<div id="certification">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <div class="about-col-1">
+                    <img src="/Image/SN Certificate.png" alt="Wel-Come to ServiceNow">
+                </div>
+                <div class="layer">
+                    <h3><b>Wel-Come to ServiceNow</b></h3>
+                    <p>I successfully completed the ServiceNow Micro-certifications on <br>Wel-Come to ServiceNow</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="about-col-1">
+                    <img src="/Image/flow.png" alt="Flow Designer">
+                </div>
+                <div class="layer">
+                    <h3><b>Flow Designer</b></h3>
+                    <p>I successfully completed the Micro-certifications on <br>ServiceNow Flow Designer</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="about-col-1">
+                <img src="/Image/IntegrationHub.png" alt="Integration Hub">
+            </div>
+                <div class="layer">
+                    <h3><b>Integration Hub</b></h3>
+                    <p>I successfully completed Micro-certifications on <br>ServiceNow Integration Hub</p>
+                    <a href="#"><i class="fa-solid fa-snowplow"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="about-col-1">
+                <img src="/Image/PI Certificate.png" alt="Predictive Intelligence">
+            </div>
+                <div class="layer">
+                    <h3><b>Predictive Intelligence</b></h3>
+                    <p>I successfully completed Micro-certifications on <br>ServiceNow Predictive Intelligence.</p>
+                    <a href="#"><i class="fa-solid fa-snowplow"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="about-col-1">
+                    <img src="/Image/PA.png" alt="Performance Analytics">
+                </div>
+                <div class="layer">
+                    <h3><b>Performance Analytics</b></h3>
+                    <p>I successfully completed Micro-certifications on <br>ServiceNow Performance Analytics</p>
+                    <a href="#"><i class="fa-solid fa-snowplow"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="about-col-1">
+                    <img src="/Image/Agile.png" alt="Agile and Test Management">
+                </div>
+                <div class="layer">
+                    <h3><b>Agile and Test Management</b></h3>
+                    <p>I successfully completed Micro-certifications on ServiceNow <br>Agile and Test Management Implementation.</p>
+                    <a href="#"><i class="fa-solid fa-snowplow"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-square-arrow-up-right"></i> sandeepsahjma2022@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7368020759</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sandeep-sah-b8382024b/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="/Image/Sandeep kumar4.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email-Id" required>
+                        <input type="number" name="Phone Number" placeholder="Contact No:" required>
+                        <textarea name="Message" rows="6" placeholder="Write your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>                    
+                </div>    
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Sandeep. Made with <i class="fa-solid fa-heart"></i> by himself.</p>
+        </div>
+    </div>    
+    <script src="/Pages/script.js"></script>
+</body>
+</html>
